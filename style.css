@@ -38,7 +38,7 @@ textarea{
 
 /* main form start */
 #form1{
-    text-align:left;
+    /* text-align:center; */
     width:50%;
 }
 .form-input{
@@ -49,10 +49,9 @@ textarea{
     background-color: whitesmoke;
 }
 #universal{
-    
     display:flex;
     justify-content: center;
-    text-align:center;
+    /* text-align:center; */
     padding-top: 30px;
 }
 #address{
