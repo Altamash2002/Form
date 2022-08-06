@@ -110,3 +110,34 @@ textarea{
     font-size: 18px;
     text-align: center;
 }
+
+
+/* responsive for mobile  */
+@media only screen and (max-width: 600px){
+    #form1{
+        width:100%;
+        padding-left: 10px;
+    }
+    #header-img img{
+        width: 280px;
+    }
+    #heading{
+        font-size: 25px;
+    }
+    .form-input{
+        width: 70vw;
+    }
+    .fmg-details{
+        padding-left: 10px;
+        width: 95%;
+    }
+    #parent-details,#academic-details,#professional-details,#syear,#sem3,#sem4,#tyear,#sem5,#sem6,#fnyear,#sem7,#sem8,#atkt-record,#hobby,#achievements,#personal-details{
+        padding-left:10px;
+    }
+
+    #copyright{
+        font-size: 13px;
+    }
+    
+
+}
