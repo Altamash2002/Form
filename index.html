@@ -56,8 +56,6 @@
           <div id="father-details" class="fmg-details"> 
             <span style="color: red;">*</span><label for="Father-Name">Father's Name</label><br>
             <input name="Father-Name" type="text" class="form-input" placeholder="Name" required><br>
-            <span style="color: red;">*</span><label for="Father-income">Income(per annum)</label><br>
-            <input name="Father-income" type="number" class="form-input" placeholder="Annual Income" required><br>
             <span style="color: red;">*</span><label for="Father-occupation">Occupation</label><br>
             <input name="Father-occupation" type="text" class="form-input" placeholder="Occupation" required><br>
             <span style="color: red;">*</span><label for="Father-phone">Phone Number</label><br>
@@ -70,8 +68,6 @@
           <div id="mother-details" class="fmg-details"> 
             <span style="color: red;">*</span><label for="Mother-Name">Mother's Name</label><br>
             <input name="Mother-Name" type="text" class="form-input" placeholder="Name" required><br>
-            <span style="color: red;">*</span><label for="Mother-income">Income(per annum)</label><br>
-            <input name="Mother-income" type="text" class="form-input" placeholder="Annual Income" required><br>
             <span style="color: red;">*</span><label for="Mother-occupation">Occupation</label><br>
             <input name="Mother-occupation" type="text" class="form-input" placeholder="Occupation" required><br>
             <span style="color: red;">*</span><label for="Mother-phone">Phone Number</label><br>
@@ -84,8 +80,6 @@
           <div id="guardian-details" class="fmg-details"> 
             <label for="Guardian-Name">Guardian's Name</label><br>
             <input name="Guardian-Name" type="text" class="form-input" placeholder="Name"><br>
-            <label for="Guardian-income">Income(per annum)</label><br>
-            <input name="Guardian-income" type="text" class="form-input" placeholder="Annual Income"><br>
             <label for="Guardian-occupation">Occupation</label><br>
             <input name="Guardian-occupation" type="text" class="form-input" placeholder="Occupation"><br>
             <label for="Guardian-phone">Phone Number</label><br>
@@ -106,8 +100,8 @@
             <input name="SSC-Percentage" type="text" class="form-input" placeholder="Percentage" required><br>
             <span style="color: red;">*</span><label for="SSC-Class">Class</label><br>
             <input name="SSC-Class" type="text" class="form-input" placeholder="Class" required><br>
-            <span style="color: red;">*</span><label for="SSC-Board">Board</label><br>
-            <input name="SSC-Board" type="text" class="form-input" placeholder="Board" required><br>
+            <span style="color: red;">*</span><label for="SSC-Board/university">Board/university</label><br>
+            <input name="SSC-Board" type="text" class="form-input" placeholder="Board/university" required><br>
           </div>
           <h3>HSC</h3>
           <div id="HSC-details" class="fmg-details">
@@ -117,8 +111,8 @@
             <input name="HSC-Percentage" type="text" class="form-input" placeholder="Percentage" required><br>
             <span style="color: red;">*</span><label for="HSC-class">Class</label><br>
             <input name="HSC-class" type="text" class="form-input" placeholder="Class" required><br>
-            <span style="color: red;">*</span><label for="HSC-Board">Board</label><br>
-            <input name="HSC-Board" type="text" class="form-input" placeholder="Board" required><br>
+            <span style="color: red;">*</span><label for="HSC-Board/university">Board/university</label><br>
+            <input name="HSC-Board" type="text" class="form-input" placeholder="Board/university" required><br>
           </div>
           <h3>FE/Diploma</h3>
           <div id="FE/Diploma-details" class="fmg-details">
@@ -128,7 +122,7 @@
             <input name="FE/Diploma-Percentage" type="text" class="form-input" placeholder="Percentage" required><br>
             <span style="color: red;">*</span><label for="FE/Diploma-class">Class</label><br>
             <input name="FE/Diploma-class" type="text" class="form-input" placeholder="Class" required><br>
-            <span style="color: red;">*</span><label for="FE/Diploma-University">Board</label><br>
+            <span style="color: red;">*</span><label for="FE/Diploma-University">University</label><br>
             <input name="FE/Diploma-University" type="text" class="form-input" placeholder="University" required><br>
           </div>
         </div>
@@ -223,10 +217,20 @@
         <h3><span style="color: red;">*</span>Hobbies</h3>
         <div id="hobby">
           <div class="fmg-details">
-            <textarea class="form-input" name="hobby/internships" rows="7" cols="20"
-              placeholder="Name your Hobbies/Interests/Internship" required></textarea>
+            <textarea class="form-input" name="hobbys" rows="7" cols="20"
+              placeholder="Name your Hobbies/Interests" required></textarea>
           </div>
         </div>
+
+        <!-- internships -->
+        <h3><span style="color: red;">*</span>Internships details</h3>
+        <div id="internship">
+          <div class="fmg-details">
+            <textarea class="form-input" name="internships" rows="7" cols="20"
+              placeholder="Enter Your Intership details" required></textarea>
+          </div>
+        </div>
+
 
 
         <!-- Submit button -->

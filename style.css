@@ -62,7 +62,7 @@ textarea{
     background-color:rgb(17, 94, 116);
 }
 
-#parent-details,#academic-details,#professional-details,#syear,#sem3,#sem4,#tyear,#sem5,#sem6,#fnyear,#sem7,#sem8,#atkt-record,#hobby,#achievements,#personal-details{
+#parent-details,#academic-details,#professional-details,#syear,#sem3,#sem4,#tyear,#sem5,#sem6,#fnyear,#sem7,#sem8,#atkt-record,#hobby,#achievements,#personal-details,#internship{
     padding-left:50px;
 }
 
@@ -80,7 +80,7 @@ textarea{
 }
 
 
-/* button start */
+/* button start.. */
 #btn-div{
     display: flex;
     justify-content: center;
@@ -131,7 +131,7 @@ textarea{
         padding-left: 10px;
         width: 95%;
     }
-    #parent-details,#academic-details,#professional-details,#syear,#sem3,#sem4,#tyear,#sem5,#sem6,#fnyear,#sem7,#sem8,#atkt-record,#hobby,#achievements,#personal-details{
+    #parent-details,#academic-details,#professional-details,#syear,#sem3,#sem4,#tyear,#sem5,#sem6,#fnyear,#sem7,#sem8,#atkt-record,#hobby,#achievements,#personal-details,#internship{
         padding-left:10px;
     }
 
